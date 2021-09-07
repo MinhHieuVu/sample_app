@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
 
   end
 
-  def hepl
+  def help
 
   end
 end
