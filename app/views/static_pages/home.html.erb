@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Home | Ruby on Rails Tutorial Sample App</title>
-</head>
-<body>
-<h1>Sample App</h1>
-<p>
-  This is the home page for the
-  <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
-</body>
-</html>
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+  <h2>
+    This is the home page for the
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails logo", width: "200"),
+            "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Frails%2Frails&psig=AOvVaw2Slo9tH5RHRZkCJmndDrCb&ust=1631348134342000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKiL3MT78_ICFQAAAAAdAAAAABAD" %>
